@@ -167,10 +167,7 @@ function navigatePage(direction,e) {
     // Construir la URL
     const newUrl = newPage ? '/' + newPage : '/';
 
-    console.log(currentPath);
-    console.log(newPage, newUrl);
-
-    //window.location.href = newUrl
+    window.location.href = newUrl
 }
 
 window.addEventListener('load', revealText)
