@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Pascua</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="transition">
+        <div class="transition-row row-1">
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+        </div>
+        <div class="transition-row row-2">
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+        </div>
+    </div>
+
+    <div class="page-navigation">
+        <button class="nav-btn nav-prev" onclick="navigatePage('prev', event)">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+            </svg>
+            Back
+        </button>
+        <button class="nav-btn nav-next" onclick="navigatePage('next', event)">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+            Next
+        </button>
+    </div>
+
+
+    <header>
+        <div class="logo">
+            <img src="https://cdn-icons-png.flaticon.com/512/9188/9188299.png" alt="Logo del museo">
+        </div>
+    </header>
+
+    <section class="introducction">
+        <h1>Fiesta de la Pascua (Pesaj)</h1>
+        <div class="intro-content">
+            <p>
+                <strong>Ubicación en la Escritura: Levítico 23:4-5</strong>
+                <i>"Estas son las fiestas solemnes de Jehová, las convocaciones santas, a las cuales convocaréis en sus
+                    tiempos. En el mes primero, a los catorce del mes, entre las dos tardes, pascua es de Jehová."</i>
+                <br>
+                <br>
+                <strong>Significado:</strong> La Pascua conmemora la liberación de los israelitas de la esclavitud en
+                Egipto,
+                específicamente la noche en que Dios "pasó por alto" las casas marcadas con sangre de cordero en los
+                dinteles.
+            </p>
+        </div>
+        <div class="intro-image">
+            <img src="https://iglesiarincon.org/wp-content/uploads/2020/04/exodo_12.jpg" alt="imagen de las fiestas">
+        </div>
+    </section>
+
+    <section class="timeline">
+        <div class="line-content">
+            <h3>Historia</h3>
+            <br>
+            <br>
+            <ul>
+                <li>
+                    <p><strong>Origen:</strong>
+
+                    Instituida durante el Éxodo, cuando Dios ordenó a los israelitas que sacrificaran un cordero sin
+                    defecto
+                    y aplicaran su sangre en los postes de sus puertas (Éxodo 12).
+                    Representa el poder salvador de Dios y su pacto con Israel.
+                    </p>
+                </li>
+                <br>
+                <li>
+                    <p>
+                    <strong>Cronología:</strong>
+
+                    Se celebra el 14 del mes de Nisán (primer mes del calendario hebreo).
+                    Inicia al atardecer y marca el comienzo de la fiesta de los Panes sin Levadura, que dura 7 días.
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div class="line-content">
+            <h3>Tipología</h3>
+            <br>
+            <ul>
+                <p><strong>Cristo como el Cordero Pascual</strong></p>
+                <li><p>Jesús es presentado como el "Cordero de Dios que quita el pecado del mundo" (Juan 1:29).</p></li>
+                <li><p>La crucifixión de Cristo ocurrió durante la Pascua, cumpliendo simbólicamente la ofrenda del cordero sin defecto.</p></li>
+                <li><p>En 1 Corintios 5:7, Pablo declara: "Cristo, nuestro cordero pascual, ha sido sacrificado."</p></li>
+                <br>
+                <p><strong>La Sangre del Cordero</strong></p>
+                <li><p>En el Éxodo, la sangre del cordero en los dinteles protegió a las familias israelitas del juicio divino (Éxodo 12:13).</p></li>
+                <li><p>En el Nuevo Testamento, la sangre de Cristo protege del juicio final y otorga salvación eterna (Hebreos 9:12-14).</p></li>
+                <br>
+                <p><strong>La Cena del Señor (Última Cena)</strong></p>
+                <li><p>La Última Cena de Jesús fue una celebración de la Pascua (Lucas 22:15-20).</p></li>
+                <li><p>Jesús reinterpretó el pan y el vino como símbolos de su cuerpo y sangre, inaugurando el Nuevo Pacto.</p></li>
+            </ul>
+        </div>
+        <div class="line-content">
+            <h3>Enseñanzas</h3>
+            <br>
+            <ul>
+                <p><strong>Redención por Gracia</strong></p>
+                <li><p>La salvación de Israel fue un acto de gracia divina, no por sus méritos. Esto prefigura la salvación por gracia a través de Cristo (Efesios 2:8-9).</p></li>
+                <br>
+                <p><strong>El Juicio y la Salvación</strong></p>
+                <li><p>La Pascua enseña que el juicio de Dios es real, pero hay salvación para quienes confían en Su provisión (la sangre del cordero).</p></li>
+                <br>
+                <p><strong>Santidad y Pureza</strong></p>
+                <li><p>Comer panes sin levadura simboliza la separación del pecado. En el Nuevo Testamento, los creyentes son llamados a vivir una vida santa (1 Corintios 5:8).</p></li>
+                <br>
+                <p><strong>Unidad del Pueblo de Dios</strong></p>
+                <li><p>La Pascua era una celebración comunitaria, mostrando que la redención une al pueblo de Dios. Esto se refleja en la iglesia como el cuerpo de Cristo.</p></li>
+            </ul>
+        </div>
+        <div class="line-content">
+            <h3>Simbolismo</h3>
+            <br>
+            <ul>
+                <p><strong>Cordero sin defecto</strong></p>
+                <li><p>Significado en el Antiguo Testamento: Redención mediante un sacrificio perfecto</p></li>
+                <li><p>Cumplimiento en el Nuevo Testamento: Jesús, el Cordero perfecto, ofrecido por nuestros pecados.</p></li>
+                <br>
+                <p><strong>Sangre en el dintel</strong></p>
+                <li><p>Significado en el Antiguo Testamento: Protección del juicio de Dios</p></li>
+                <li><p>Cumplimiento en el Nuevo Testamento: La sangre de Cristo nos cubre del juicio eterno.</p></li>
+                <br>
+                <p><strong>Panes sin levadura</strong></p>
+                <li><p>Significado en el Antiguo Testamento: Pureza y separación del pecado</p></li>
+                <li><p>Cumplimiento en el Nuevo Testamento: Una vida sin corrupción (1 Corintios 5:7-8).</p></li>
+                <br>
+                <p><strong>Hierbas amargas</strong></p>
+                <li><p>Significado en el Antiguo Testamento: La amargura de la esclavitud</p></li>
+                <li><p>Cumplimiento en el Nuevo Testamento: El sufrimiento de Cristo para liberarnos del pecado.</p></li>
+            </ul>
+        </div>
+    </section>
+
+    <script src="../gsap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</body>
+
+</html>

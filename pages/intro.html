@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="transition">
+        <div class="transition-row row-1">
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+        </div>
+        <div class="transition-row row-2">
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+        </div>
+    </div>
+
+    <div class="page-navigation">
+        <button class="nav-btn nav-prev" onclick="navigatePage('prev', event)">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+            </svg>
+            Back
+        </button>
+        <button class="nav-btn nav-next" onclick="navigatePage('next', event)">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+            Next
+        </button>
+    </div>
+
+    
+    <header>
+        <div class="logo">
+            <img src="https://cdn-icons-png.flaticon.com/512/9188/9188299.png" alt="Logo del museo">
+        </div>
+    </header>
+
+    <section class="introducction">
+        <h1>Introducción</h1>
+        <div class="intro-content">
+            <p>
+                En el corazón de la antigua tradición judía, las fiestas solemnes descritas en el libro de Levítico representan mucho más que simples conmemoraciones. Son ventanas sagradas que nos permiten comprender la profunda relación entre el Creador y su pueblo elegido. Cada festividad es un capítulo de una historia extraordinaria de fe, liberación, gratitud y esperanza.
+                <br>
+                <br>
+                Este museo es una invitación a un viaje transformador. Aquí, los visitantes no serán meros espectadores, sino testigos de un encuentro sagrado que trasciende el tiempo. Cada rincón, cada objeto, cada imagen cuenta una historia que va más allá de los rituales: son narrativas de promesas cumplidas, de redención y de un amor divino que se manifiesta en los momentos más significativos de la vida del pueblo de Israel.
+                <br>
+                <br>
+                Las fiestas que exploraremos no son simples tradiciones antiguas. Son testimonios vivientes de cómo un pueblo mantenía su conexión con Dios a través de celebraciones que marcaban los ritmos de su existencia: desde la liberación de la esclavitud en Egipto hasta la cosecha de los campos, desde la purificación espiritual hasta la conmemoración de la provisión divina.
+                <br>
+                <br>
+                Cada sala de este museo es una invitación a la reflexión. Les pedimos que no solo observen, sino que se permitan experimentar. Imaginen el sonido de las trompetas en Rosh Hashaná, sientan la tensión sagrada del Yom Kippur, revivan la alegría de la Pascua, contemplen la gratitud de las primicias.
+                <br>
+                <br>
+                Estas celebraciones son más que historia. Son un puente entre lo antiguo y lo contemporáneo, entre lo terrenal y lo ceslestial. Son un recordatorio de que cada celebración es una oportunidad para reconectar, para recordar de dónde venimos y hacia dónde nos dirigimos.
+                <br>
+                <br>
+                Bienvenidos a un viaje por las fiestas solemnes: un recorrido que transformará su fe, la cultura y el encuentro con lo trascendente.
+            </p>
+        </div>
+        <div class="intro-image">
+            <img src="https://biblicom.org/media/articulos/WillisGC_Las-fiestas-de-Jehova/WillisGC_Las-fiestas-de-Jehova.jpg" alt="imagen de las fiestas">
+        </div>
+    </section>
+
+    <script src="../gsap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</body>
+</html>
