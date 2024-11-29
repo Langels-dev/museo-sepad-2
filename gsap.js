@@ -146,7 +146,7 @@ function navigatePage(direction,e) {
     ]
 
     // Obtener la ruta actual, eliminando la barra inicial si existe
-    const currentPath = window.location.pathname.replace('/museo-sepad-2/', '');
+    const currentPath = window.location.pathname.replace(/^\//, '');
     // Encontrar el índice de la página actual
     const currentIndex = pages.findIndex(page => 
         // Comparar con página vacía para la página de inicio
